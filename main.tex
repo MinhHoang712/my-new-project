@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{vietnam}
+\title{test}
+\date{January 2022}
+
+\begin{document}
+
+	Câu 1.3.5: Tìm tất cả các số tự nhiên n để sao cho n(n+1)(n+2)(n+3) có đúng ba ước nguyên tố.
+
+    \centerline{Bài giải}
+    
+    Đặt P = n(n+1)(n+2)(n+3). Ta thấy n = 0,1,4,5 không thỏa mãn điều kiện yêu cầu, với n = 2,3 hoặc n = 6 thì P chỉ có đúng 3 ước nguyên tố.Dưới đây, ta sẽ chỉ ra rằng với n $\ge$ 7 thì P có ít nhất bốn ước nguyên tố, thật vậy, ta xét hai trường hợp:
+    
+   
+ \hspace{0.5cm} Trường hợp 1: n chẵn.Khi đó ta viết:
+    
+    \centerline{$P = 4.\frac{n}{2}.(n+1).\frac{n+2}{2}.(n+3)$}
+    
+    Ta có ba số $\frac{n}{2},n+1,\frac{n +2}{2}$ đôi một nguyên tố cùng nhau và ba số $n+1, \frac{n+2}{2},n+3$ cũng đôi một nguyên tố cùng nhau.
+    
+    \hspace{0.5cm} Nếu $\frac{n}{2}, n+3$ không nguyên tố cùng nhau thì suy ra  $\frac{n}{2}$ chia hết cho 3. Đặt n=6k, k $\ge$ 2.Khi đó:
+    
+    \hspace{1.5cm} P = 6k(6k+1)(6k+2)(6k+3) = 36k(2k+1)(3k+1)(6k+1)
+    
+   Vì bốn số k,2k+1,3k+1,6k+1 đôi một nguyên tố cùng nhau nên P có ít nhất 4 ước nguyên tố phân biệt.
+   
+   \hspace{0.5cm} Trường hợp 2: n lẻ.Tương tự trường hợp 1 ta chỉ ra được P có ít nhất 4 ước nguyên tố phân biệt.
+   
+   \hspace{0.5cm} Vậy với n =2,3,6 thì P có  đúng ba ước nguyên tố.
+   
+   
+   Câu 1.3.6: Cho một số tự nhiên n  >1 có phân tích chính tắc n = $p^{\alpha_{1}}_{1}$  $p^{\alpha_{2}}_{2}$ ....  $p^{\alpha_{s}}_{s}$ .Chứng minh rằng $\sqrt[r]{n}$ là một số nguyên khi và chỉ khi $a_{i}$ chia hết cho r với mọi i= 1,....,s 
+   
+       \centerline{Bài giải}
+      Giả sử n có phân tích tiêu chuẩn n = $p^{a_{1}}_{1}$ $p^{a_{2}}_{2}$ ....  $p^{a_{s}}_{s}$.
+      
+      Nếu với mọi i =1,2,...,s ta có $a_{i}$ chia hết cho r thì hiển nhiên $\sqrt[r]{n}$ = m là một số nguyên dương.
+      
+      Đảo lại, giả sử $\sqrt[r]{n}$ = m là một số nguyên dương.Bởi vì n>1 nên ta có m>1. Giả sử m có phân tích tiêu chuẩn là 
+      
+      
+       \centerline{ m = $p^{\beta_{1}}_{1}$ $p^{\beta_{2}}_{2}$ ....  $p^{\beta_{t}}_{t}$}
+       
+      Khi đó, n = $m^{r}$ có phân tích tiêu chuẩn là:
+      
+      
+      \centerline{ n = $p^{r\beta_{1}}_{1}$ $p^{r\beta_{2}}_{2}$ ....  $p^{r\beta_{t}}_{t}$}
+      
+    Từ đó suy ra t = s và nếu cần đánh số lại, ta có thể giả sử $\alpha_{i} = r\beta_{i}$ với mọi i =1,2,...,s. Vậy với mỗi i =1,2,....,s ta có $a_{i}$ chia hết cho r.
+    
+    Câu 1.3.7: Giả sử p, q là hai số nguyên tố phân biệt thỏa mãn  pq |  $n^{2}$. Chứng minh rằng pq | n.
+    
+    \centerline{Bài giải}
+    
+    Giả sử pq | $n^{2}$.
+    
+    Nếu n không chia hết cho p thì n và p là số nguyên tố cùng nhau. Do đó n.n và p cũng nguyên tố cùng nhau. Suy ra $n^{2}$ không chia hết cho p, trái giả thiết. Vậy n chia hết cho p.
+    
+    Chứng minh tương tự, n cũng chia hết cho p.
+    
+    Vì p và q là hai số nguyên tố phân biệt nên p và q nguyên tố cùng nhau. Từ đó suy ra n chia hết cho pq.
+    
+    Câu 1.3.8:  Cho ba số nguyên tố dương a,b,c với (a,b) =1. Chứng minh rằng với mọi số nguyên dương n thì từ ab = $c^{n}$ ta suy ra tồn tại x,y $\in N^{+}$dể sao cho a = $x^{n}$ và b = $y^{n}$.
+
+\centerline{Bài giải}
+    
+Giả sử có phân tích tiêu chuẩn là c = $p^{\alpha_{1}}_{1}$ $p^{\alpha_{2}}_{2}$ ....  $p^{\alpha_{k}}_{k}$ . Khi đó $c^{n}$ có phân tích tiêu chuẩn:
+
+\centerline{$c^{n} $= $p^{n\alpha_{1}}_{1}$ $p^{n\alpha_{2}}_{2}$ ....  $p^{n\alpha_{k}}_{k}$ \hspace{2.5cm} (1.23)}
+
+Tiếp theo, giả sử a, b có các phân tích tiêu chuẩn lần lượt là:
+
+\centerline{a = $q^{\beta_{1}}_{1}$ $q^{\beta_{2}}_{2}$ ....  $q^{\beta_{t}}_{t}$}
+
+\centerline{b = $q^{\beta_{t+1}}_{t+1}$ $q^{\beta_{t+2}}_{t+2}$ ....  $q^{\beta_{m}}_{m}$}
+
+Vì (a,b) = 1 nên ab có phân tích tiêu chuẩn là 
+
+\centerline{ab = $q^{\beta_{1}}_{1}$ $q^{\beta_{2}}_{2}$ ....  $q^{\beta_{t}}_{t}$ . $q^{\beta_{t+1}}_{t+1}$ $q^{\beta_{t+2}}_{t+2}$ ....  $q^{\beta_{m}}_{m}$ (1.24)}
+
+Theo giả thiết ab = $c^{n}$, kết hợp với các đẳng thức (1.23) và (1.24) ta suy ra m = k và đánh số lại (nếu cần) ta có thể coi $\beta_{i} = n\alpha_{i}$ với mọi i = $\overline{1.k}$ 
+       
+      
+\end{document}
